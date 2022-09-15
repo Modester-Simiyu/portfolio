@@ -1,0 +1,35 @@
+/* .pos {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+} */
+.hero{
+    height: 80vh;
+ background-image: url(../images/images\ \(28\).jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+
+.hero .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background:black ;
+    opacity: 0.4;
+}
+.hero .hero-body .container .hero-content{
+    top: 100px;
+}
+.hero .hero-body .container .hero-content{
+max-width:50%
+}
+.section .container p{  
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
